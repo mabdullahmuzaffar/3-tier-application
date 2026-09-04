@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<settings xsi:schemaLocation="http://apache.org http://apache.org" xmlns="http://apache.org"
+    xmlns:xsi="http://w3.org">
   <servers>
     <server>
       <username>prdevop26@gmail.com</username>
@@ -22,13 +22,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-release</url>
+          <url>https://jfrog.io</url>
         </repository>
         <repository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-snapshot</url>
+          <url>https://jfrog.io</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -38,13 +38,13 @@
           </snapshots>
           <id>central</id>
           <name>libs-release</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-release</url>
+          <url>https://jfrog.io</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
           <id>snapshots</id>
           <name>libs-snapshot</name>
-          <url>https://edshopdpt8.jfrog.io/artifactory/libs-snapshot</url>
+          <url>https://jfrog.io</url>
         </pluginRepository>
       </pluginRepositories>
       <id>artifactory</id>
